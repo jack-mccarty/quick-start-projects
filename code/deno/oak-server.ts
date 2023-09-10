@@ -1,7 +1,3 @@
-// It is recommended to use a versioned URL, such as:
-// import * as oak from "https://deno.land/x/oak@v12.6.1/mod.ts"
-// In a production application, you probably want to use dep.ts instead.
-// See https://deno.land/manual/examples/manage_dependencies for more info.
 // For oak documentation, see https://deno.land/x/oak/mod.ts
 
 import { Application, Router, Context } from "https://deno.land/x/oak/mod.ts";

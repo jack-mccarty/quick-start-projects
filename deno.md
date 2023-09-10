@@ -44,6 +44,7 @@ If you are getting  a certificate error when running a command or script that lo
 0: error trying to connect: invalid peer certificate: UnknownIssuer
 1: invalid peer certificate: UnknownIssuer
 ```
+
 Use the `--unsafely-ignore-certificate-errors` flag when running Deno commands from command line/powershell
 
 ie:
@@ -54,7 +55,3 @@ deno run --allow-net --unsafely-ignore-certificate-errors app.ts
 ```
 
 >Note: If you can resolve the certificate issue, please do so. This is a temporary workaround.
-
-
-
-
