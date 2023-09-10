@@ -10,6 +10,6 @@ for commands, tips and tricks, view the md files for each topic. They will be se
 
 ## JS/TS Files
 
-for code snippets, view the js/ts files. They will be set up as \<langugage>-\<topic>.js/ts
+for code snippets, view the js/ts files. They will be set up as \language\topic.js/ts
 > Many of the TS files will not include types, as they are just meant to be quick snippets.
 You will find them in the `code` folder.
