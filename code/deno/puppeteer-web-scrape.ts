@@ -32,7 +32,8 @@ const createBrowser = async (): Promise<Browser> => {
   return browser;
 };
 
-// This is the main function that will run when you run the script
+// get the local path to chrome
+const chromePath = await getChromePath();
 
 //basic example
 const main = async () => {
